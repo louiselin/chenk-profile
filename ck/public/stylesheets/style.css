@@ -1,0 +1,132 @@
+body {
+  font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體', sans-serif;
+}
+li>a {
+  color: #290303;
+}
+/*超過768px*/
+@media screen and (min-width: 900px) {
+  /*.main {
+    height: 100%;
+  }*/
+  .intro {
+    position: fixed;
+    background: #FFC6C6;
+    width: 30%;
+    /*position: absolute;*/
+    height: 100%;
+    float: left;
+    /*background-repeat: no-repeat;
+    background-size: 100% auto;*/
+    /*background-image: url('../images/bg.jpg');*/
+    /*opacity: .1;*/
+    /*z-index: -1;*/
+  }
+  .ckname {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    color: #290303;
+    text-shadow: 0px 0 white, 0 1px white, 0px 0 white, 0 0 white;
+    font-size: 30px;
+    text-align: center;
+  }
+  .ckinfo {
+    color: #290303;
+    font-size: 20px;
+    margin: 0 0 0 22%;
+
+  }
+  .ckphoto {
+    width: 130px;
+    height: 130px;
+    margin: 20% 0 0 32%;
+    border-radius: 100px 100px 100px 100px;
+    border:3px solid white;
+    padding:2px;
+  }
+  .letter {
+    margin: 10% 0 0 0;
+    text-align: center;
+  }
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    background: #290303;
+    text-align: center;
+    color: white;
+  }
+  .detail {
+    background: #FFF3F3;
+    margin-left: 30%;
+    position: absolute;
+    /*height: 100%;*/
+    width: 70%;
+  }
+  .listtitle {
+    margin: 6% 10% 6% 6%;
+    list-style: none;
+  }
+  .listtitle h2 {
+    margin-bottom: 3%;
+  }
+  .listliner {
+    width: 90%;
+    margin: 5% 0 5% 0;
+    border-top: 2px solid #FDE2E4;
+    opacity: .7;
+  }
+  .listdate {
+    color: #D0777B;
+  }
+
+
+
+}
+
+/*介於480px與767px之間*/
+@media screen and (min-width: 499px) and (max-width: 899px) {
+  .intro {
+    background: blue;
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
+  .detail {
+    background: green;
+    margin-left: 30%;
+    height: 100%;
+    /*width: 59%;*/
+    /*width: 70%;*/
+  }
+  .ckphoto {
+    width: 30%;
+    height: 16%;
+    margin: 20% 0 0 32%;
+    border-radius: 100px 100px 100px 100px;
+    border:3px solid white;
+    padding:2px;
+  }
+}
+
+/*未滿480px，即479px以下*/
+@media screen and (max-width: 500px) {
+  .intro {
+    background: blue;
+    width: 399px;
+    /*height: 30%;*/
+    /*position: relative;*/
+  }
+  .detail {
+    background: green;
+    /*width: 70%;*/
+  }
+
+}
+/*a {
+  color: #00B7FF;
+}*/
+/*.main {
+  background: red;
+}*/

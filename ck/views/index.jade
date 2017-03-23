@@ -1,6 +1,23 @@
 extends layout
 
 block content
+  .nav
+    button.navclick
+      i.fa.fa-bars.fa-3x
+    //- .navbar 
+    ol.navlist
+      li 
+        a(href='') HOME
+      li 
+        a(href='about') ABOUT
+      li 
+        a(href='research') RESEARCH
+      li 
+        a(href='course') COURSE
+      li 
+        a(href='publications') PUBLICATIONS
+      li 
+        a(href='join') JOIN
   .main
     .intro
       img(src= 'http://www.cs.nccu.edu.tw/~chenk/CK2010Office.jpg', class='ckphoto')
@@ -22,43 +39,61 @@ block content
           li
             a(href='http://www.cs.nccu.edu.tw/~chenk/letter2Freshmen-2011.pdf', target="_blank")給大一新生的一封信(A letter to freshmen)
       .footer
-        span copyright © 2017&nbsp|&nbspNCCUCS&nbsp|&nbspAll rights reserved.
+        span Copyright&nbsp©&nbspDr.&nbspChen&nbsp2017.&nbspAll&nbspRights&nbspReserved
     .detail
       ol.listtitle
         li
           h2
-            开发Go项目最简单的方式 — 一个基于Docker的go 工具
+            a(href='') 
+              开发Go项目最简单的方式 — 一个基于Docker的go 工具
           span.listdate
             i.fa.fa-clock-o
               &nbsp&nbspMarch&nbsp17&nbsp2017
           hr.listliner
         li
           h2
-            在Rails中使用 active_model_serializers 构建json response
+            a(href='') 
+              在Rails中使用 active_model_serializers 构建json response
           span.listdate
             i.fa.fa-clock-o
               &nbsp&nbspMarch&nbsp17&nbsp2017
           hr.listliner
         li
           h2
-            Develop web based cross platform mobile app（开发基于Web的跨平台移动应用）
+            a(href='') 
+              Develop web based cross platform mobile app（开发基于Web的跨平台移动应用）
           span.listdate
             i.fa.fa-clock-o
               &nbsp&nbspMarch&nbsp17&nbsp2017
           hr.listliner
         li
           h2
-            发布iPhone应用到Apple Store的经历
+            a(href='') 
+              发布iPhone应用到Apple Store的经历
           span.listdate
             i.fa.fa-clock-o
               &nbsp&nbspMarch&nbsp17&nbsp2017
           hr.listliner
         li
           h2
-            使用七牛云提升博客加载速度
+            a(href='') 
+              使用七牛云提升博客加载速度
           span.listdate
             i.fa.fa-clock-o
               &nbsp&nbspMarch&nbsp17&nbsp2017
           hr.listliner
-      
+        li
+          h2
+            a(href='') 
+              First week in India
+          span.listdate
+            i.fa.fa-clock-o
+              &nbsp&nbspMarch&nbsp17&nbsp2017
+          hr.listliner
+      //- .listnext
+      //-   .listright
+      //-     p Older posts →
+      //-   .listleft
+      //-     p ← Newer posts
+        
   

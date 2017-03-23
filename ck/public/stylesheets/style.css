@@ -9,6 +9,43 @@ li>a {
   /*.main {
     height: 100%;
   }*/
+  .nav {
+    position: fixed;
+    float: left;
+  }
+  button {
+    background-color: Transparent;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    /*opacity: .5;*/
+
+  }
+  .navlist {
+    width: 400px;
+    list-style: none;
+    background: #290303;
+    float: right;
+    display: none;
+  }
+  .navlist > li {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    margin: 4% 0 0 8%;
+    height: 50px;
+    font-size: 20px;
+    color: #FFC6C6;
+    /*border-bottom: 1px solid #FFC6C6;*/
+  }
+  .navlist > li > a {
+    color: #FFC6C6;
+    text-align: center;
+
+  }
+  .navlist > li > a:hover {
+    font-size: 23px;
+    color: #FFFDFD;
+    text-decoration: none;
+  }
   .intro {
     position: fixed;
     background: #FFC6C6;
@@ -20,7 +57,7 @@ li>a {
     background-size: 100% auto;*/
     /*background-image: url('../images/bg.jpg');*/
     /*opacity: .1;*/
-    /*z-index: -1;*/
+    z-index: -1;
   }
   .ckname {
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
@@ -32,8 +69,8 @@ li>a {
   .ckinfo {
     color: #290303;
     font-size: 20px;
-    margin: 0 0 0 22%;
-
+    margin: 0 0 0 20%;
+    /*text-align: center;*/
   }
   .ckphoto {
     width: 130px;
@@ -58,18 +95,26 @@ li>a {
     color: white;
   }
   .detail {
-    background: #FFF3F3;
+    background: #FFFDFD;
     margin-left: 30%;
     position: absolute;
     /*height: 100%;*/
     width: 70%;
   }
   .listtitle {
-    margin: 6% 10% 6% 6%;
+    margin: 9% 10% 16% 6%;
     list-style: none;
+    color: #290303;
   }
-  .listtitle h2 {
+  .listtitle h2{
     margin-bottom: 3%;
+  }
+  .listtitle h2>a {
+    color: #290303;
+  }
+  .listtitle h2>a:hover, .listtitle h2>a:focus {
+    text-decoration: none;
+    color: #C14F55;
   }
   .listliner {
     width: 90%;
@@ -80,7 +125,22 @@ li>a {
   .listdate {
     color: #D0777B;
   }
-
+  .listnext {
+    color: #290303;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .listright{
+    margin: 0 5% 8% 0;
+    float: right;
+  }
+  .listleft{
+    margin: 0 0 8% 5%;
+    float: left;
+  }
+  .listleft:hover, .listright:hover {
+    border-bottom: .4px dotted;
+  }
 
 
 }

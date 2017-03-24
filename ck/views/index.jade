@@ -1,25 +1,39 @@
 extends layout
 
 block content
-  .nav
+  .nav#nav
     button.navclick
-      i.fa.fa-bars.fa-3x
+      i.fa.fa-bars.fa-3x 
+        .navlist
+          //- a(href='', class='nonetoa')
+          a(href='') HOME
+          br
+          a(href='about') ABOUT
+          br
+          a(href='research') RESEARCH
+          br
+          a(href='course') COURSES
+          br
+          a(href='publications') PUBLICATIONS
+          br
+          a(href='join') JOIN
+          br
     //- .navbar 
-    ol.navlist
-      li 
-        a(href='') HOME
-      li 
-        a(href='about') ABOUT
-      li 
-        a(href='research') RESEARCH
-      li 
-        a(href='course') COURSE
-      li 
-        a(href='publications') PUBLICATIONS
-      li 
-        a(href='join') JOIN
+  //- ol.navlist
+  //-   li 
+  //-     a(href='') HOME
+  //-   li 
+  //-     a(href='about') ABOUT
+  //-   li 
+  //-     a(href='research') RESEARCH
+  //-   li 
+  //-     a(href='course') COURSE
+  //-   li 
+  //-     a(href='publications') PUBLICATIONS
+  //-   li 
+  //-     a(href='join') JOIN
   .main
-    .intro
+    .intro#intro
       img(src= 'http://www.cs.nccu.edu.tw/~chenk/CK2010Office.jpg', class='ckphoto')
       p.ckname Dr. Kung Chen
       hr
@@ -27,9 +41,11 @@ block content
         p
           i.fa.fa-briefcase.fa-fw &nbsp&nbsp&nbspProfessor
         p
-          i.fa.fa-home.fa-fw &nbsp&nbsp&nbspDept.&nbspof&nbspComputer&nbspScience&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNational&nbspChengchi&nbspUniversity 
+          i.fa.fa-address-card
+          a(href='http://www.nccu.edu.tw/', class='infocolor') &nbsp&nbspDept.&nbspof&nbspComputer&nbspScience&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNational&nbspChengchi&nbspUniversity 
         p
-          i.fa.fa-envelope.fa-fw &nbsp&nbsp&nbspchenk@cs.nccu.edu.tw
+          i.fa.fa-envelope.fa-fw 
+          a(href='mailto:chenk@cs.nccu.edu.tw', class='infocolor') &nbsp&nbspchenk@cs.nccu.edu.tw
         p
           i.fa.fa-phone.fa-fw &nbsp&nbsp&nbsp(02)&nbsp29387242#62189
       .letter
@@ -40,7 +56,7 @@ block content
             a(href='http://www.cs.nccu.edu.tw/~chenk/letter2Freshmen-2011.pdf', target="_blank")給大一新生的一封信(A letter to freshmen)
       .footer
         span Copyright&nbsp©&nbspDr.&nbspChen&nbsp2017.&nbspAll&nbspRights&nbspReserved
-    .detail
+    .detail#detail
       ol.listtitle
         li
           h2

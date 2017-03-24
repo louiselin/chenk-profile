@@ -206,6 +206,78 @@ li>a {
 
 /*介於480px與767px之間*/
 @media screen and (min-width: 499px) and (max-width: 899px) {
+  .nav {
+    position: fixed;
+    float: left;
+  }
+  button {
+    background-color: Transparent;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    position: fixed;
+    /*opacity: .5;*/
+
+  }
+  /*.navclick > i > a {
+    color: #FFC6C6;
+    text-decoration: none;
+    background: #290303;
+    width: 30px;
+    float: right;
+  }*/
+  /*case 1*/
+  .navlist {
+    font-family: "Nexa Bold","Helvetica Neue",Helvetica,sans-serif,Helvetica,sans-serif;
+    font-weight: bold;
+    width: 300px;
+    list-style: none;
+    background: #290303;
+    /*float: right;*/
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+    height: 100%;
+    /*text-align: center;*/
+  }
+  /*.navlist > li {
+    font-family: font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    margin: 5% 0 0 10%;
+    height: 50px;
+    font-size: 20px;
+    color: #FFC6C6;
+  }
+  .navlist > li > a {
+    color: #FFC6C6;
+    text-align: center;
+    float: left:
+  }
+  .navlist > li > a:hover {
+    font-size: 23px;
+    color: #290303;
+    text-decoration: none;
+  }
+  .navlist > li:hover {
+    background: #FFC6C6;
+  }*/
+
+  .navlist > a {
+    font-size: 20px;
+    color: #FFC6C6;
+    text-decoration: none;
+    height: 30px;
+    width: 300px;
+    float: left;
+    text-align: center;
+  }
+  .navlist > a:hover {
+    color: #290303;
+    text-decoration: none;
+    background: #FFC6C6;
+    width: 300px;
+    height: 30px;
+  }
   .intro {
     background: #FFC6C6;
     width: 400px;

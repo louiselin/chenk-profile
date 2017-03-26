@@ -1,15 +1,13 @@
 body {
   font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體', sans-serif;
+  background: red;
 }
 li>a {
   color: #290303;
 }
 /*超過768px*/
 @media screen and (min-width: 900px) {
-  .main {
-    left:0px;
-    top:0px;
-  }
+
   .nav {
     position: fixed;
     float: left;
@@ -156,19 +154,21 @@ li>a {
     color: white;
   }
   .detail {
-    background: #FFFDFD;
+
     margin-left: 400px;
     position: absolute;
     /*height: 100%;*/
+
+    /*width: auto;*/
+    height: 100%;
     overflow: visible;
-    width: 70%;
-    left:0px;
     top:0px;
   }
   .listtitle {
     margin: 9% 10% 16% 6%;
     list-style: none;
     color: #290303;
+    width: 100%;
   }
   .listtitle h2{
     /*margin-bottom: 3%;*/

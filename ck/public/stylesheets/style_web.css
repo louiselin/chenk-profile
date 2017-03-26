@@ -160,6 +160,7 @@ li>a {
     margin-left: 400px;
     position: absolute;
     /*height: 100%;*/
+    overflow: visible;
     width: 70%;
     left:0px;
     top:0px;
@@ -221,6 +222,7 @@ li>a {
     bottom: 0;
     left: 400px;
     /*padding: 2rem;*/
+    /*width: 100%;*/
     background: #290303;
     text-align: center;
     color: white;

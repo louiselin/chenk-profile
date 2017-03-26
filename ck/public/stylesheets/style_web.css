@@ -206,7 +206,7 @@ li>a {
     border-bottom: .4px dotted;
   }
   .joincontent {
-    margin: 0 0 0 5%;
+    margin: 5% 5% 0 5%;
     font-size: 18px;
   }
   .joincontent h2:hover {

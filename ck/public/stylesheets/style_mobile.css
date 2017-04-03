@@ -224,6 +224,21 @@ li>a {
   .col-md-6.borderl > h3 {
     margin-left: 6%;
   }
+  .detail .pub {
+    margin: 4% 4% 2% 4%;
+  }
+  .detail .cur {
+    margin: 7% 4% 3% 7%;
+  }
+  .detail .cur > ul >li> a {
+    color: blue;
+  }
+  .detail .res {
+    margin: 11% 6% 9% 6%;
+  }
+  .detail .res > ul >li> a {
+    color: blue;
+  }
 }
 
 /*未滿480px，即479px以下*/

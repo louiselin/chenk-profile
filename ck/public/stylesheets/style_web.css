@@ -252,5 +252,19 @@ li>a {
   .col-md-6.borderl > h3 {
     margin-left: 6%;
   }
-
+  .detail .pub {
+    margin: 6% 6% 3% 6%;
+  }
+  .detail .cur {
+    margin: 11% 6% 5% 11%;
+  }
+  .detail .cur > ul >li> a {
+    color: blue;
+  }
+  .detail .res {
+    margin: 16% 0 9% 16%;
+  }
+  .detail .res > ul >li> a {
+    color: blue;
+  }
 }

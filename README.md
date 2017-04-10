@@ -7,7 +7,7 @@
 
 ```cd chenkung_profile```
 ```npm start```
-或是保持後背台運作
+
 
 
 ## Add Pages ##
@@ -26,11 +26,11 @@
 
 * 每頁都會有：
     * ```nav.jade```
-    指的是有選單和主要訊息的部分，包含：每一頁的連結、老師資訊以及不變的連結和footer。
-    在每頁需要固定出現的地方加入```include nav```。
+      * 指的是有選單和主要訊息的部分，包含：每一頁的連結、老師資訊以及不變的連結和footer。
+      * 加入方式：在每頁需要固定出現的地方加入```include nav```。
     * ```layout.jade```
-    主要放使用的js和css的cdn。
-    在一開始加入```extends layout```。
+      * 主要放使用的js和css的cdn。
+      * 加入方式：在一開始加入```extends layout```。
 * 響應式網頁css：
     * 手機：```public/stylesheet/style_mobile.css```
         *  @media screen and (max-width: 900px)

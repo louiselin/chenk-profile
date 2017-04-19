@@ -5,14 +5,18 @@
 
 ## How do I get set up? ##
 
-```cd chenkung_profile```
-```npm start```
-<跑在背景>
+```
+    cd chenkung_profile
+    npm start
+```
+
+* 跑在背景
 ``` 
     tmux 
     npm start 
 ```
 在執行畫面ctrl+b進入tmux指令，按d（離開tmux）
+ 
 ```tmux attach -t 0 ```（執行list 0）
 
 

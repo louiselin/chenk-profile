@@ -114,6 +114,13 @@ li>a {
     font-size: 30px;
     text-align: center;
   }
+  .ckname_ch {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    color: #290303;
+    text-shadow: 0px 0 white, 0 1px white, 0px 0 white, 0 0 white;
+    font-size: 25px;
+    text-align: center;
+  }
   .ckinfo {
     color: #290303;
     font-size: 18px;
